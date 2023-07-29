@@ -6,7 +6,7 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-void InputArray(double[,] matrix)
+static void InputArray(double[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
